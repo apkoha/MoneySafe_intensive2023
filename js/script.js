@@ -2,7 +2,7 @@
 // "use strict";
 
 import { convertStringNumber } from "./convertStringNumber.js";
-import { OverlayScrollbars } from "./overlayscrollbars.esm.min.js"; //https://github.com/KingSora/OverlayScrollbars
+import { OverlayScrollbars } from "./overlayscrollbars.esm.min.js";
 const API_URL = "https://luxuriant-honorable-alibi.glitch.me/api";
 
 const typeOperation = {
@@ -43,7 +43,6 @@ financeForm.addEventListener("submit", (event) => {
 
 OverlayScrollbars(report, {});
 
-//28:40 https://my.methed.ru/pl/teach/control/lesson/view?id=313655404&editMode=0
 const getData = async (url) => {
   try {
     const response = await fetch(`${API_URL}${url}`);
