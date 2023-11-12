@@ -5,4 +5,5 @@
 - Вёрстка предоставлена онлайн школой
 - для стилизации скролбаров используется репозиторий https://github.com/KingSora/OverlayScrollbars
 - серверная часть развёрнута на https://glitch.com/
+- настройки сервера https://github.com/Quper24/api_finance
 - построение графиков с помощью библиотеки https://www.chartjs.org/
